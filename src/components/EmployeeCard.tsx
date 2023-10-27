@@ -8,9 +8,9 @@ const EmployeeCard = (employeeInfo : EmployeeType ) => {
     <Card.Body>
       <Card.Title>......Employee Details .......</Card.Title>
       <Card.Text>
-       <p>First Name: <b>{employeeInfo.fName}</b></p>
-       <p>Last Name: <b>{employeeInfo.lName}</b></p>
+       <p>Name: <b>{employeeInfo.fName} {employeeInfo.lName}</b></p>
        <p>Age: <b>{employeeInfo.age}</b></p>
+      
       </Card.Text>
     </Card.Body>
   </Card>
