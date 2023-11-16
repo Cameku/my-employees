@@ -28,7 +28,7 @@ const Home = () => {
       empDetails?.length > 0 ? (
         empDetails.map((employee, index) => (
           <Container key={index}>
-            <EmployeeCard  id={employee.id} fName={employee.fName} lName={employee.lName} age={employee.age} children={employee.children}  />
+            <EmployeeCard fName={employee.fName} lName={employee.lName} age={employee.age} children={employee.children}  />
           </Container>
         ))
       ) : (
