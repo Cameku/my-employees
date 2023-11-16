@@ -1,5 +1,5 @@
 export type EmployeeType = {
-    id: number; 
+   // id: number; 
     fName: string;
     lName: string;
     age: number;
@@ -8,5 +8,5 @@ export type EmployeeType = {
 
 export type ChildrenType = {
     fullName: string; 
-    childAge: number;
+    gender: string;
 }
